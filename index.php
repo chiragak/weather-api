@@ -25,7 +25,7 @@ text-align: center;
 <div class="weather-info">
 <?php
 // API configuration
-$api_key = 'e12a584d60b892effe84337d30c5df77'; // Replace with your API key
+$api_key = ''; // Replace with your API key
 $city = 'Mangaluru'; // Replace with desired city name
 $api_url ="https://api.openweathermap.org/data/2.5/weather?q=$city&appid=$api_key&units=imperial";
 // Fetch weather data from API
